@@ -1,0 +1,13 @@
+Test	Expected	Actual	Verdict
+Custom equality: same ISBN, different title/price/stock	Equal via typed, object and operator equality; equal hash	Equal; matching hash; HashSet stores two unique ISBNs from three inputs	PASS
+Default record equality	All four component changes affect equality	Identical components equal; changing each component gives unequal	PASS
+Ordering	Price ascending; equal-price tie; book greater than null	Positive/negative comparison by price; tie 0; null comparison positive	PASS
+Constructor boundaries	Zero stock/price accepted; negative stock/price and blank identifiers rejected	Zero accepted; expected argument exceptions for all invalid fixtures	PASS
+Quantities 0, -1, int.MinValue	Both Restock and Sell throw ArgumentOutOfRangeException	All six calls throw the expected exception	PASS
+Normal transitions: stock 4, restock 3, sell 2	4 -> 7 -> 5; distinct references; earlier records unchanged	4 -> 7 -> 5; both returned references distinct; earlier stock unchanged	PASS
+Discarded return values	Original stock remains 4	Original stock remains 4 after discarded Sell and Restock	PASS
+Sell all / oversell / sell empty	Sell(4) reaches 0; other two attempts throw InvalidOperationException	0 stock; both rejected with expected exception	PASS
+Integer stock limits	Restock to int.MaxValue succeeds; exceeding it throws OverflowException; selling maximum reaches 0	2147483647 accepted; both overflowing restocks rejected; maximum sale leaves 0	PASS
+Catalogue / sorted view	Original 111,222,333 with exact fields; sorted 222,333,111	Both ISBN orders correct; original titles/prices/stock/order unchanged	PASS
+Duplicate filters	Equality filter 4 -> 2; reference filter 4 -> 3 preserving original object	Counts 2 and 3; original ISBN111 price45.00/stock4 preserved	PASS
+External mutation compile guards	Direct/with/initializer stock writes and other property with-writes rejected	Valid caller compiled; all six invalid lines emitted CS0200; compiler exit1	PASS

@@ -1,0 +1,14 @@
+C:\Users\feertch\IFP3\bin\Release\net10.0\IFP3.exe
+C:\Users\feertch\IFP3\bin\Release\net10.0\IFP3.deps.json
+C:\Users\feertch\IFP3\bin\Release\net10.0\IFP3.runtimeconfig.json
+C:\Users\feertch\IFP3\bin\Release\net10.0\IFP3.dll
+C:\Users\feertch\IFP3\bin\Release\net10.0\IFP3.pdb
+C:\Users\feertch\IFP3\obj\Release\net10.0\IFP3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\feertch\IFP3\obj\Release\net10.0\IFP3.AssemblyInfoInputs.cache
+C:\Users\feertch\IFP3\obj\Release\net10.0\IFP3.AssemblyInfo.cs
+C:\Users\feertch\IFP3\obj\Release\net10.0\IFP3.csproj.CoreCompileInputs.cache
+C:\Users\feertch\IFP3\obj\Release\net10.0\IFP3.dll
+C:\Users\feertch\IFP3\obj\Release\net10.0\refint\IFP3.dll
+C:\Users\feertch\IFP3\obj\Release\net10.0\IFP3.pdb
+C:\Users\feertch\IFP3\obj\Release\net10.0\IFP3.genruntimeconfig.cache
+C:\Users\feertch\IFP3\obj\Release\net10.0\ref\IFP3.dll

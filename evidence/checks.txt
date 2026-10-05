@@ -1,0 +1,44 @@
+﻿PASS 01: Equality ignores title, price and stock for the same ISBN
+PASS 02: Different ISBNs are unequal
+PASS 03: Record operators use custom equality
+PASS 04: Object.Equals dispatches to ISBN equality
+PASS 05: Equal ISBNs produce equal hashes
+PASS 06: HashSet deduplicates by ISBN
+PASS 07: Null and another type are unequal
+PASS 08: Default record equality accepts identical components
+PASS 09: Default record equality includes all four components
+PASS 10: Ordering uses ascending price even for equal ISBNs
+PASS 11: Equal prices compare as a tie despite unequal ISBNs
+PASS 12: A book compares greater than null
+PASS 13: Zero price and zero initial stock are valid
+PASS 14: Negative initial stock is rejected
+PASS 15: Minimum integer initial stock is rejected
+PASS 16: Blank title is rejected
+PASS 17: Blank ISBN is rejected
+PASS 18: Negative initial price is rejected
+PASS 19: Restock(0) rejects a nonpositive quantity
+PASS 20: Sell(0) rejects a nonpositive quantity
+PASS 21: Restock(-1) rejects a nonpositive quantity
+PASS 22: Sell(-1) rejects a nonpositive quantity
+PASS 23: Restock(-2147483648) rejects a nonpositive quantity
+PASS 24: Sell(-2147483648) rejects a nonpositive quantity
+PASS 25: Normal restock and sale calculate stock
+PASS 26: Each stock operation returns a new reference
+PASS 27: Earlier references retain their original stock
+PASS 28: Discarding either returned record leaves the source unchanged
+PASS 29: Selling all available stock reaches zero
+PASS 30: Overselling is rejected
+PASS 31: Selling from empty stock is rejected
+PASS 32: Restock can reach the maximum integer exactly
+PASS 33: Restock beyond maximum stock is rejected
+PASS 34: Large positive restock cannot wrap
+PASS 35: Rejected operations leave source records unchanged
+PASS 36: Maximum positive sale is valid when fully stocked
+PASS 37: Required catalogue has exact original order and data
+PASS 38: Sorted view orders the required catalogue cheapest first
+PASS 39: Building a sorted view preserves original order and every field
+PASS 40: Copied catalogue contains two ISBN-equal entries
+PASS 41: Equality filtering removes both the original and duplicate (4 to 2)
+PASS 42: Reference filtering removes only the inserted object (4 to 3)
+PASS 43: Duplicate filtering preserves the original price, stock and catalogue
+All 43 checks passed.

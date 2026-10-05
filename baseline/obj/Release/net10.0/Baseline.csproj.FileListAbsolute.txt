@@ -1,0 +1,14 @@
+C:\Users\feertch\IFP3\baseline\bin\Release\net10.0\Baseline.exe
+C:\Users\feertch\IFP3\baseline\bin\Release\net10.0\Baseline.deps.json
+C:\Users\feertch\IFP3\baseline\bin\Release\net10.0\Baseline.runtimeconfig.json
+C:\Users\feertch\IFP3\baseline\bin\Release\net10.0\Baseline.dll
+C:\Users\feertch\IFP3\baseline\bin\Release\net10.0\Baseline.pdb
+C:\Users\feertch\IFP3\baseline\obj\Release\net10.0\Baseline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\feertch\IFP3\baseline\obj\Release\net10.0\Baseline.AssemblyInfoInputs.cache
+C:\Users\feertch\IFP3\baseline\obj\Release\net10.0\Baseline.AssemblyInfo.cs
+C:\Users\feertch\IFP3\baseline\obj\Release\net10.0\Baseline.csproj.CoreCompileInputs.cache
+C:\Users\feertch\IFP3\baseline\obj\Release\net10.0\Baseline.dll
+C:\Users\feertch\IFP3\baseline\obj\Release\net10.0\refint\Baseline.dll
+C:\Users\feertch\IFP3\baseline\obj\Release\net10.0\Baseline.pdb
+C:\Users\feertch\IFP3\baseline\obj\Release\net10.0\Baseline.genruntimeconfig.cache
+C:\Users\feertch\IFP3\baseline\obj\Release\net10.0\ref\Baseline.dll

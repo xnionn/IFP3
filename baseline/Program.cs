@@ -1,0 +1,27 @@
+// Task1: mutable starter demonstrating that shared references observe the same stock change.
+class Book
+{
+    public string Title { get; set; }
+    public string Isbn { get; set; }
+    public decimal Price { get; set; }
+    public int StockCount { get; set; }
+}
+
+internal static class Program
+{
+    public static void Main()
+    {
+        List<Book> catalog = new()
+        {
+            new Book { Title = "Refactoring", Isbn = "111", Price = 45.00m, StockCount = 4 },
+            new Book { Title = "Clean Code", Isbn = "222", Price = 35.50m, StockCount = 2 },
+            new Book { Title = "The Pragmatic Programmer", Isbn = "333", Price = 40.00m, StockCount = 6 },
+        };
+        
+        Book featured = catalog[0];
+        Book display = featured;
+        display.StockCount = 0;
+        
+        Console.WriteLine(featured.StockCount);
+    }
+}
